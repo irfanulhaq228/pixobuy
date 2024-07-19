@@ -3,6 +3,7 @@ import video from "../assets/video.mp4";
 import logo from "../assets/imgs/logo-6.png";
 import downArrow from "../assets/svgs/down-arrow.svg";
 import Section2 from "@/components/homeComponents/Section2";
+import Section3 from "@/components/homeComponents/Section3";
 
 const Home = () => {
   const section2Ref = useRef(null);
@@ -35,6 +36,7 @@ const Home = () => {
         </div>
       </div>
       <Section2 ref={section2Ref} />
+      <Section3 />
     </>
   );
 };
